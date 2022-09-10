@@ -11,9 +11,9 @@ body {
 }
 
 header {
-  background-color: black;
-  border-bottom: 2px solid #32b9cd;
   padding: 15px 0;
+  background-color: black;
+  border-bottom: 3px solid #32b9cd;
 }
 
 .container {
@@ -32,6 +32,7 @@ header {
 }
 
 .navegacao {
+  width: 350px;
   color: #efb661;
 }
 
@@ -39,10 +40,13 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 350px;
 }
 
 .navegacao ul li {
-  font-size: 12px;
+  font-size: 1rem;
   cursor: pointer;
+}
+
+.agora {
+  font-weight: bold;
 }
