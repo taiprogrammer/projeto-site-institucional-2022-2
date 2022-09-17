@@ -43,6 +43,11 @@ header {
   justify-content: space-between;
 }
 
+.navegacao a {
+  color: #efb661;
+  text-decoration: none;
+}
+
 .navegacao ul li {
   font-size: 1rem;
   cursor: pointer;
